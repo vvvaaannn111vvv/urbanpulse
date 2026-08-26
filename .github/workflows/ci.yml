@@ -109,7 +109,8 @@ jobs:
           curl -fsS -o /dev/null -w 'metrics: %{http_code}\n' http://localhost:8000/metrics/cache
 
       - name: Smoke - dashboard is served
-        run: curl -fsS -o /dev/null -w 'web: %{http_code}\n' http://localhost:8080/
+        run: |
+          curl -fsS -o /dev/null -w 'web: %{http_code}\n' http://localhost:8080/
 
       - name: Smoke - Timescale hypertable and continuous aggregate exist
         run: |
