@@ -28,3 +28,4 @@ web/.vite/
 
 # Locust intermediate files (only the final CSV/JSON in results/ is committed)
 locust_report.html
+results/locust_stats_history.csv

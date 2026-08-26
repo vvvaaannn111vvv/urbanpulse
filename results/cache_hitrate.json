@@ -1,0 +1,19 @@
+{
+  "measured_at": "2026-08-26T19:11:56.499212+02:00",
+  "host": "http://127.0.0.1:8000",
+  "requests_issued": 600,
+  "distinct_stations": 12,
+  "wall_seconds": 1.647,
+  "requests_per_second": 364.3,
+  "cache_backend": "memory",
+  "hits": 523,
+  "misses": 77,
+  "hit_rate": 0.8717,
+  "ttl_seconds": {
+    "stations": 15,
+    "history": 60,
+    "predict": 60,
+    "replay": 300
+  },
+  "traffic_mix": "10 stations / 5 history / 5 predict / 2 replay (same weights as locustfile)"
+}

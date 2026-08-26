@@ -1,0 +1,50 @@
+{
+  "measured_at": "2026-08-26T19:11:49.339521+02:00",
+  "host": "http://127.0.0.1:8000",
+  "users": 50,
+  "spawn_rate": 10.0,
+  "run_time": "60s",
+  "machine": "Darwin arm64 python3.11.0",
+  "server": "uvicorn, 1 worker, sqlite backend, in-process cache",
+  "requests": 9307,
+  "failures": 0,
+  "requests_per_second": 157.38,
+  "latency_ms": {
+    "p50": 1.0,
+    "p95": 29.0,
+    "p99": 51.0,
+    "max": 130.2
+  },
+  "per_endpoint": {
+    "/health": {
+      "requests": 369,
+      "rps": 6.24,
+      "p50_ms": 26.0,
+      "p95_ms": 54.0
+    },
+    "/predict/{id}": {
+      "requests": 2066,
+      "rps": 34.94,
+      "p50_ms": 1.0,
+      "p95_ms": 4.0
+    },
+    "/replay": {
+      "requests": 808,
+      "rps": 13.66,
+      "p50_ms": 21.0,
+      "p95_ms": 53.0
+    },
+    "/stations": {
+      "requests": 4050,
+      "rps": 68.49,
+      "p50_ms": 1.0,
+      "p95_ms": 3.0
+    },
+    "/stations/{id}/history": {
+      "requests": 2014,
+      "rps": 34.06,
+      "p50_ms": 1.0,
+      "p95_ms": 3.0
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-08-26T16:58:59.847030+00:00",
+  "backend": "sqlite",
+  "n_folds": 4,
+  "boosting_rounds": 400,
+  "bucket_minutes": 15,
+  "n_features": 30,
+  "n_stations": 88,
+  "aggregate_buckets": 236632,
+  "observation_count": 709720,
+  "train_seconds": 86.51,
+  "cv_scheme": "rolling-origin, expanding train window, horizon-sized gap",
+  "baseline": "seasonal naive (same time of day, one week earlier)",
+  "horizons": [
+    {
+      "horizon_min": 15,
+      "folds": 4,
+      "model_mae": 0.3224,
+      "model_rmse": 0.4838,
+      "baseline_mae": 0.9839,
+      "baseline_rmse": 1.259,
+      "mae_skill_vs_baseline": 0.6724,
+      "rmse_skill_vs_baseline": 0.6158,
+      "test_rows": 141856
+    },
+    {
+      "horizon_min": 30,
+      "folds": 4,
+      "model_mae": 0.4602,
+      "model_rmse": 0.6642,
+      "baseline_mae": 0.9839,
+      "baseline_rmse": 1.259,
+      "mae_skill_vs_baseline": 0.5323,
+      "rmse_skill_vs_baseline": 0.4724,
+      "test_rows": 141856
+    },
+    {
+      "horizon_min": 60,
+      "folds": 4,
+      "model_mae": 0.6169,
+      "model_rmse": 0.8738,
+      "baseline_mae": 0.9841,
+      "baseline_rmse": 1.2592,
+      "mae_skill_vs_baseline": 0.3732,
+      "rmse_skill_vs_baseline": 0.3061,
+      "test_rows": 141680
+    }
+  ]
+}
