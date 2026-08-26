@@ -1,0 +1,65 @@
+[project]
+name = "urbanpulse"
+version = "0.1.0"
+description = "Real-time mobility analytics platform for Ljubljana bike share"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115,<0.120",
+    "uvicorn[standard]>=0.30,<0.40",
+    "httpx>=0.27,<0.29",
+    "pydantic>=2.7,<3",
+    "pydantic-settings>=2.3,<3",
+    "numpy>=1.26,<3",
+    "pandas>=2.2,<3",
+    "lightgbm>=4.3,<5",
+    "scikit-learn>=1.4,<2",
+    "redis>=5.0,<7",
+    "websockets>=12,<16",
+]
+
+[project.optional-dependencies]
+# Extras needed only by the containerised stack (Kafka broker + TimescaleDB).
+# The default install runs the SQLite / in-process-queue dev backend.
+stack = [
+    "confluent-kafka>=2.5,<3",
+    "psycopg[binary,pool]>=3.1,<4",
+]
+dev = [
+    "pytest>=8.2,<9",
+    "pytest-asyncio>=0.23,<2",
+    "ruff>=0.6,<0.15",
+    "mypy>=1.10,<2",
+    "locust>=2.29,<3",
+    "types-requests",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["services*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "C4", "SIM"]
+ignore = ["B008"]  # FastAPI Depends() in defaults is idiomatic
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.mypy]
+python_version = "3.11"
+files = ["services", "scripts"]
+ignore_missing_imports = true
+warn_unused_ignores = false
+disallow_untyped_defs = false

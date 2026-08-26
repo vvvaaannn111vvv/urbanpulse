@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local data / model artefacts (regenerate with `make seed` + `make train`)
+data/
+*.sqlite
+*.sqlite-journal
+*.db
+models/*.txt
+models/*.joblib
+models/*.json
+
+# Node
+node_modules/
+web/dist/
+web/.vite/
+
+# Env / OS
+.env
+.DS_Store
+
+# Locust intermediate files (only the final CSV/JSON in results/ is committed)
+locust_report.html
