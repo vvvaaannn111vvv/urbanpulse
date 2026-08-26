@@ -1,0 +1,150 @@
+# UrbanPulse stack: GBFS -> poller -> Kafka -> consumer -> TimescaleDB -> API -> web.
+#
+# Every image tag is pinned. Each service declares a healthcheck so that
+# `docker compose up -d --wait` blocks until the stack is genuinely ready
+# instead of racing the first request.
+#
+#   cp .env.example .env && docker compose up -d --wait
+#   curl -fsS http://localhost:8000/health
+#   open http://localhost:8080
+
+name: urbanpulse
+
+services:
+  # --- Kafka in KRaft mode: single combined broker+controller, no ZooKeeper ---
+  kafka:
+    image: confluentinc/cp-kafka:7.7.1
+    container_name: urbanpulse-kafka
+    environment:
+      CLUSTER_ID: MkU3OEVBNTcwNTJENDM2Qk
+      KAFKA_NODE_ID: 1
+      KAFKA_PROCESS_ROLES: broker,controller
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092,CONTROLLER://0.0.0.0:9093
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT
+      KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      KAFKA_CONTROLLER_QUORUM_VOTERS: 1@kafka:9093
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+      KAFKA_NUM_PARTITIONS: 3
+      KAFKA_LOG_DIRS: /var/lib/kafka/data
+    volumes:
+      - kafka-data:/var/lib/kafka/data
+    healthcheck:
+      test: ["CMD", "kafka-broker-api-versions", "--bootstrap-server", "localhost:9092"]
+      interval: 10s
+      timeout: 10s
+      retries: 20
+      start_period: 45s
+
+  # --- TimescaleDB: hypertable + one continuous aggregate ---
+  timescaledb:
+    image: timescale/timescaledb:2.17.2-pg16
+    container_name: urbanpulse-timescaledb
+    environment:
+      POSTGRES_USER: urbanpulse
+      POSTGRES_PASSWORD: urbanpulse
+      POSTGRES_DB: urbanpulse
+    volumes:
+      - timescale-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U urbanpulse -d urbanpulse"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 20s
+
+  # --- Redis: response cache for the API ---
+  redis:
+    image: redis:7-alpine
+    container_name: urbanpulse-redis
+    command: ["redis-server", "--save", "", "--appendonly", "no"]
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+      start_period: 5s
+
+  # --- FastAPI: runs migrations on startup, then serves reads + /ws ---
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: urbanpulse-api
+    environment:
+      URBANPULSE_BACKEND: timescale
+      URBANPULSE_PG_DSN: postgresql://urbanpulse:urbanpulse@timescaledb:5432/urbanpulse
+      URBANPULSE_KAFKA_BOOTSTRAP: kafka:9092
+      URBANPULSE_REDIS_URL: redis://redis:6379/0
+      URBANPULSE_MODEL_DIR: /app/models
+    volumes:
+      # Models are gitignored; mount whatever `make train` produced. Without
+      # them the API answers /predict with persistence and says so in /health.
+      - ./models:/app/models:ro
+    ports:
+      - "8000:8000"
+    depends_on:
+      timescaledb:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://localhost:8000/health', timeout=5).status == 200 else 1)"
+      interval: 10s
+      timeout: 8s
+      retries: 15
+      start_period: 30s
+
+  # --- Ingestion: GBFS poller (producer) + persistence consumer, both over Kafka ---
+  ingest:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: urbanpulse-ingest
+    command: ["python", "-m", "services.ingest", "--role", "both"]
+    environment:
+      URBANPULSE_BACKEND: timescale
+      URBANPULSE_PG_DSN: postgresql://urbanpulse:urbanpulse@timescaledb:5432/urbanpulse
+      URBANPULSE_KAFKA_BOOTSTRAP: kafka:9092
+      URBANPULSE_POLL_INTERVAL_S: "60"
+    depends_on:
+      timescaledb:
+        condition: service_healthy
+      kafka:
+        condition: service_healthy
+    restart: unless-stopped
+
+  # --- Dashboard: static bundle behind nginx, which proxies /api and /ws ---
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    container_name: urbanpulse-web
+    ports:
+      - "8080:80"
+    depends_on:
+      api:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O /dev/null http://localhost/ || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+volumes:
+  kafka-data:
+  timescale-data:
