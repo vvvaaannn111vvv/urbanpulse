@@ -5,6 +5,11 @@ ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
     PIP_NO_CACHE_DIR=1
 
+# LightGBM links against the OpenMP runtime, which the slim image does not ship.
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends libgomp1 \
+ && rm -rf /var/lib/apt/lists/*
+
 WORKDIR /app
 
 # Dependencies first so code edits do not invalidate the wheel layer.
