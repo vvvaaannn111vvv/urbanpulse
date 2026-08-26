@@ -74,7 +74,9 @@ def main(argv: list[str] | None = None) -> int:
         "misses": stats["misses"],
         "hit_rate": stats["hit_rate"],
         "ttl_seconds": ttls,
-        "traffic_mix": "10 stations / 5 history / 5 predict / 2 replay (same weights as locustfile)",
+        "traffic_mix": (
+            "10 stations / 5 history / 5 predict / 2 replay (same weights as locustfile)"
+        ),
     }
     RESULTS.parent.mkdir(parents=True, exist_ok=True)
     RESULTS.write_text(json.dumps(payload, indent=2) + "\n")
