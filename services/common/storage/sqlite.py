@@ -212,8 +212,20 @@ class SQLiteStore(Store):
             row = self._conn.execute("SELECT COUNT(*) AS n FROM station_status").fetchone()
         return int(row["n"])
 
-    def training_frame(self) -> pd.DataFrame:
-        sql = """
+    def training_frame(
+        self, station_id: str | None = None, since: datetime | None = None
+    ) -> pd.DataFrame:
+        assert BUCKET_MIN == 15, "the 15m view hard-codes 900-second buckets"
+        clauses: list[str] = []
+        params: list[object] = []
+        if station_id is not None:
+            clauses.append("a.station_id = ?")
+            params.append(station_id)
+        if since is not None:
+            clauses.append("a.bucket >= ?")
+            params.append(_epoch(since))
+        where = f"WHERE {' AND '.join(clauses)}" if clauses else ""
+        sql = f"""
             SELECT a.bucket        AS bucket,
                    a.station_id    AS station_id,
                    a.avg_bikes     AS avg_bikes,
@@ -225,11 +237,11 @@ class SQLiteStore(Store):
             FROM station_status_15m a
             JOIN stations s ON s.station_id = a.station_id
             LEFT JOIN weather w ON w.ts = a.bucket - (a.bucket % 3600)
+            {where}
             ORDER BY a.station_id, a.bucket
-        """  # noqa: S608 - no user input; BUCKET_MIN documented below
-        assert BUCKET_MIN == 15  # the view above hard-codes 900s buckets
+        """
         with self._lock:
-            df = pd.read_sql_query(sql, self._conn)
+            df = pd.read_sql_query(sql, self._conn, params=params)
         df["bucket"] = pd.to_datetime(df["bucket"], unit="s", utc=True)
         return df
 

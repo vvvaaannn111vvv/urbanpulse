@@ -205,13 +205,25 @@ class TimescaleStore(Store):
             row = conn.execute("SELECT COUNT(*) FROM station_status").fetchone()
         return int(row[0]) if row else 0
 
-    def training_frame(self) -> pd.DataFrame:
-        sql = """
+    def training_frame(
+        self, station_id: str | None = None, since: datetime | None = None
+    ) -> pd.DataFrame:
+        clauses: list[str] = []
+        params: list[object] = []
+        if station_id is not None:
+            clauses.append("a.station_id = %s")
+            params.append(station_id)
+        if since is not None:
+            clauses.append("a.bucket >= %s")
+            params.append(_aware(since))
+        where = f"WHERE {' AND '.join(clauses)}" if clauses else ""
+        sql = f"""
             SELECT a.bucket, a.station_id, a.avg_bikes, a.avg_docks, s.capacity,
                    w.temp_c, w.precip_mm, w.wind_kmh
             FROM station_status_15m a
             JOIN stations s ON s.station_id = a.station_id
             LEFT JOIN weather w ON w.ts = date_trunc('hour', a.bucket)
+            {where}
             ORDER BY a.station_id, a.bucket
         """
         cols = [
@@ -225,7 +237,7 @@ class TimescaleStore(Store):
             "wind_kmh",
         ]
         with self._pool.connection() as conn:
-            rows = conn.execute(sql).fetchall()
+            rows = conn.execute(sql, params or None).fetchall()
         df = pd.DataFrame(rows, columns=cols)
         df["bucket"] = pd.to_datetime(df["bucket"], utc=True)
         return df

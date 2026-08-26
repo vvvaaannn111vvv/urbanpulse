@@ -66,8 +66,13 @@ class Store(ABC):
     def observation_count(self) -> int: ...
 
     @abstractmethod
-    def training_frame(self) -> pd.DataFrame:
-        """All 15-minute buckets joined with station capacity and hourly weather.
+    def training_frame(
+        self, station_id: str | None = None, since: datetime | None = None
+    ) -> pd.DataFrame:
+        """15-minute buckets joined with station capacity and hourly weather.
+
+        Optionally narrowed to one station and/or a start time — the serving path
+        only needs one station's recent window.
 
         Columns: bucket, station_id, avg_bikes, avg_docks, capacity,
         temp_c, precip_mm, wind_kmh.
