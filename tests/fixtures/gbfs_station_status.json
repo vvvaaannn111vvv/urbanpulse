@@ -1,0 +1,1505 @@
+{
+ "last_updated": "2026-08-26T16:43:19.802Z",
+ "ttl": 1,
+ "version": "3.0",
+ "data": {
+  "stations": [
+   {
+    "station_id": "1",
+    "num_vehicles_available": 10,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 10
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 9,
+    "num_docks_disabled": 1,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T03:50:53Z"
+   },
+   {
+    "station_id": "2",
+    "num_vehicles_available": 6,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 6
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 12,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:05:02Z"
+   },
+   {
+    "station_id": "3",
+    "num_vehicles_available": 1,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 1
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 19,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T04:18:37Z"
+   },
+   {
+    "station_id": "4",
+    "num_vehicles_available": 8,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 8
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 18,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:05:01Z"
+   },
+   {
+    "station_id": "5",
+    "num_vehicles_available": 20,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 20
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 0,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T06:10:15Z"
+   },
+   {
+    "station_id": "6",
+    "num_vehicles_available": 13,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 13
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 5,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:55Z"
+   },
+   {
+    "station_id": "7",
+    "num_vehicles_available": 1,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 1
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 17,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:57Z"
+   },
+   {
+    "station_id": "8",
+    "num_vehicles_available": 2,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 2
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 18,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:50Z"
+   },
+   {
+    "station_id": "9",
+    "num_vehicles_available": 0,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 0
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 19,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:05:00Z"
+   },
+   {
+    "station_id": "10",
+    "num_vehicles_available": 3,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 3
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 14,
+    "num_docks_disabled": 1,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:05:31Z"
+   },
+   {
+    "station_id": "11",
+    "num_vehicles_available": 3,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 3
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 17,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T07:56:39Z"
+   },
+   {
+    "station_id": "12",
+    "num_vehicles_available": 0,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 0
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 20,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T11:04:05Z"
+   },
+   {
+    "station_id": "13",
+    "num_vehicles_available": 5,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 5
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 15,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T04:36:16Z"
+   },
+   {
+    "station_id": "14",
+    "num_vehicles_available": 3,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 3
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 17,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:36:07Z"
+   },
+   {
+    "station_id": "15",
+    "num_vehicles_available": 5,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 5
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 13,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:05:05Z"
+   },
+   {
+    "station_id": "16",
+    "num_vehicles_available": 0,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 0
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 24,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:56Z"
+   },
+   {
+    "station_id": "17",
+    "num_vehicles_available": 4,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 4
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 14,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:51Z"
+   },
+   {
+    "station_id": "18",
+    "num_vehicles_available": 0,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 0
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 20,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T15:10:15Z"
+   },
+   {
+    "station_id": "19",
+    "num_vehicles_available": 19,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 19
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 1,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T04:01:43Z"
+   },
+   {
+    "station_id": "20",
+    "num_vehicles_available": 6,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 6
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 8,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:05:01Z"
+   },
+   {
+    "station_id": "21",
+    "num_vehicles_available": 17,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 17
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 9,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:56Z"
+   },
+   {
+    "station_id": "22",
+    "num_vehicles_available": 13,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 13
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 5,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:56Z"
+   },
+   {
+    "station_id": "23",
+    "num_vehicles_available": 10,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 10
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 10,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:59Z"
+   },
+   {
+    "station_id": "24",
+    "num_vehicles_available": 16,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 16
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 0,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:52Z"
+   },
+   {
+    "station_id": "25",
+    "num_vehicles_available": 14,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 14
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 7,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T03:54:57Z"
+   },
+   {
+    "station_id": "26",
+    "num_vehicles_available": 5,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 5
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 13,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:58Z"
+   },
+   {
+    "station_id": "27",
+    "num_vehicles_available": 1,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 1
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 19,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T10:49:05Z"
+   },
+   {
+    "station_id": "28",
+    "num_vehicles_available": 8,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 8
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 10,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:57Z"
+   },
+   {
+    "station_id": "29",
+    "num_vehicles_available": 4,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 4
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 13,
+    "num_docks_disabled": 1,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:51Z"
+   },
+   {
+    "station_id": "30",
+    "num_vehicles_available": 19,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 19
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 1,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:05:01Z"
+   },
+   {
+    "station_id": "31",
+    "num_vehicles_available": 25,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 25
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 1,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:58Z"
+   },
+   {
+    "station_id": "32",
+    "num_vehicles_available": 3,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 3
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 5,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T12:05:55Z"
+   },
+   {
+    "station_id": "33",
+    "num_vehicles_available": 6,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 6
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 16,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:52Z"
+   },
+   {
+    "station_id": "34",
+    "num_vehicles_available": 2,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 2
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 18,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T02:07:18Z"
+   },
+   {
+    "station_id": "35",
+    "num_vehicles_available": 15,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 15
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 5,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:59Z"
+   },
+   {
+    "station_id": "36",
+    "num_vehicles_available": 8,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 8
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 12,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T03:56:33Z"
+   },
+   {
+    "station_id": "37",
+    "num_vehicles_available": 13,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 13
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 7,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T03:56:26Z"
+   },
+   {
+    "station_id": "38",
+    "num_vehicles_available": 0,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 0
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 20,
+    "num_docks_disabled": 0,
+    "is_installed": false,
+    "is_renting": false,
+    "is_returning": false,
+    "last_reported": "2026-04-20T07:33:11Z"
+   },
+   {
+    "station_id": "39",
+    "num_vehicles_available": 9,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 9
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 11,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T03:55:01Z"
+   },
+   {
+    "station_id": "40",
+    "num_vehicles_available": 5,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 5
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 16,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T15:43:45Z"
+   },
+   {
+    "station_id": "41",
+    "num_vehicles_available": 11,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 11
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 9,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:52Z"
+   },
+   {
+    "station_id": "42",
+    "num_vehicles_available": 17,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 17
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 3,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T14:15:22Z"
+   },
+   {
+    "station_id": "43",
+    "num_vehicles_available": 14,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 14
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 6,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:47Z"
+   },
+   {
+    "station_id": "44",
+    "num_vehicles_available": 3,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 3
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 17,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:51Z"
+   },
+   {
+    "station_id": "45",
+    "num_vehicles_available": 7,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 7
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 13,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:58Z"
+   },
+   {
+    "station_id": "46",
+    "num_vehicles_available": 2,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 2
+     }
+    ],
+    "num_vehicles_disabled": 1,
+    "num_docks_available": 17,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:05:00Z"
+   },
+   {
+    "station_id": "47",
+    "num_vehicles_available": 11,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 11
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 8,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T03:56:25Z"
+   },
+   {
+    "station_id": "48",
+    "num_vehicles_available": 19,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 19
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 1,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:55Z"
+   },
+   {
+    "station_id": "49",
+    "num_vehicles_available": 1,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 1
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 19,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:53Z"
+   },
+   {
+    "station_id": "50",
+    "num_vehicles_available": 15,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 15
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 5,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:54Z"
+   },
+   {
+    "station_id": "51",
+    "num_vehicles_available": 5,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 5
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 15,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:46Z"
+   },
+   {
+    "station_id": "52",
+    "num_vehicles_available": 0,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 0
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 20,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T04:21:15Z"
+   },
+   {
+    "station_id": "53",
+    "num_vehicles_available": 12,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 12
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 8,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:57Z"
+   },
+   {
+    "station_id": "54",
+    "num_vehicles_available": 18,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 18
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 2,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:05:00Z"
+   },
+   {
+    "station_id": "55",
+    "num_vehicles_available": 5,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 5
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 15,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T13:16:38Z"
+   },
+   {
+    "station_id": "56",
+    "num_vehicles_available": 5,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 5
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 15,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:05:01Z"
+   },
+   {
+    "station_id": "57",
+    "num_vehicles_available": 8,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 8
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 11,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:59Z"
+   },
+   {
+    "station_id": "58",
+    "num_vehicles_available": 14,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 14
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 4,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:57Z"
+   },
+   {
+    "station_id": "59",
+    "num_vehicles_available": 3,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 3
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 17,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T12:58:03Z"
+   },
+   {
+    "station_id": "60",
+    "num_vehicles_available": 2,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 2
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 18,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:52Z"
+   },
+   {
+    "station_id": "61",
+    "num_vehicles_available": 8,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 8
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 12,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:57Z"
+   },
+   {
+    "station_id": "62",
+    "num_vehicles_available": 8,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 8
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 12,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:58Z"
+   },
+   {
+    "station_id": "63",
+    "num_vehicles_available": 16,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 16
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 4,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T04:36:51Z"
+   },
+   {
+    "station_id": "64",
+    "num_vehicles_available": 0,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 0
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 20,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:58Z"
+   },
+   {
+    "station_id": "65",
+    "num_vehicles_available": 2,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 2
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 18,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:06:17Z"
+   },
+   {
+    "station_id": "66",
+    "num_vehicles_available": 7,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 7
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 13,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:58Z"
+   },
+   {
+    "station_id": "67",
+    "num_vehicles_available": 14,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 14
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 6,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:58Z"
+   },
+   {
+    "station_id": "68",
+    "num_vehicles_available": 12,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 12
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 8,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T03:54:59Z"
+   },
+   {
+    "station_id": "69",
+    "num_vehicles_available": 9,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 9
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 11,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T03:55:06Z"
+   },
+   {
+    "station_id": "70",
+    "num_vehicles_available": 19,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 19
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 1,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:58Z"
+   },
+   {
+    "station_id": "71",
+    "num_vehicles_available": 16,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 16
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 4,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T03:55:05Z"
+   },
+   {
+    "station_id": "72",
+    "num_vehicles_available": 5,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 5
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 15,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T03:55:02Z"
+   },
+   {
+    "station_id": "73",
+    "num_vehicles_available": 10,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 10
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 10,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:53Z"
+   },
+   {
+    "station_id": "74",
+    "num_vehicles_available": 11,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 11
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 9,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T03:55:06Z"
+   },
+   {
+    "station_id": "75",
+    "num_vehicles_available": 0,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 0
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 20,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T04:52:43Z"
+   },
+   {
+    "station_id": "76",
+    "num_vehicles_available": 0,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 0
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 20,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T15:57:43Z"
+   },
+   {
+    "station_id": "77",
+    "num_vehicles_available": 9,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 9
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 11,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T03:57:13Z"
+   },
+   {
+    "station_id": "78",
+    "num_vehicles_available": 20,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 20
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 0,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:06:04Z"
+   },
+   {
+    "station_id": "79",
+    "num_vehicles_available": 11,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 11
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 9,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:57Z"
+   },
+   {
+    "station_id": "80",
+    "num_vehicles_available": 4,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 4
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 16,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:05:01Z"
+   },
+   {
+    "station_id": "81",
+    "num_vehicles_available": 0,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 0
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 20,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T16:40:32Z"
+   },
+   {
+    "station_id": "82",
+    "num_vehicles_available": 0,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 0
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 20,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T15:37:10Z"
+   },
+   {
+    "station_id": "83",
+    "num_vehicles_available": 10,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 10
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 10,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T03:55:07Z"
+   },
+   {
+    "station_id": "84",
+    "num_vehicles_available": 10,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 10
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 10,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T01:04:50Z"
+   },
+   {
+    "station_id": "85",
+    "num_vehicles_available": 6,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 6
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 14,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T03:56:27Z"
+   },
+   {
+    "station_id": "86",
+    "num_vehicles_available": 6,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 6
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 14,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T16:02:10Z"
+   },
+   {
+    "station_id": "87",
+    "num_vehicles_available": 7,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 7
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 7,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T09:25:19Z"
+   },
+   {
+    "station_id": "88",
+    "num_vehicles_available": 0,
+    "vehicle_types_available": [
+     {
+      "vehicle_type_id": "mechanical",
+      "count": 0
+     }
+    ],
+    "num_vehicles_disabled": 0,
+    "num_docks_available": 0,
+    "num_docks_disabled": 0,
+    "is_installed": true,
+    "is_renting": true,
+    "is_returning": true,
+    "last_reported": "2026-08-26T09:57:37Z"
+   }
+  ]
+ }
+}

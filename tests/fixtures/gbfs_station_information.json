@@ -1,0 +1,1505 @@
+{
+ "last_updated": "2026-08-26T16:43:19.802Z",
+ "ttl": 300,
+ "version": "3.0",
+ "data": {
+  "stations": [
+   {
+    "station_id": "1",
+    "name": [
+     {
+      "text": "PREŠERNOV TRG-PETKOVŠKOVO NABREŽJE",
+      "language": "sl"
+     },
+     {
+      "text": "PREŠERNOV TRG-PETKOVŠKOVO NABREŽJE",
+      "language": "en"
+     }
+    ],
+    "lat": 46.051367,
+    "lon": 14.506542,
+    "address": "Prešernov trg 6",
+    "capacity": 20
+   },
+   {
+    "station_id": "2",
+    "name": [
+     {
+      "text": "POGAČARJEV TRG-TRŽNICA",
+      "language": "sl"
+     },
+     {
+      "text": "POGAČARJEV TRG-TRŽNICA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.051093,
+    "lon": 14.507186,
+    "address": "Pogačarjev trg 3",
+    "capacity": 18
+   },
+   {
+    "station_id": "3",
+    "name": [
+     {
+      "text": "KONGRESNI TRG-ŠUBIČEVA ULICA",
+      "language": "sl"
+     },
+     {
+      "text": "KONGRESNI TRG-ŠUBIČEVA ULICA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.050388,
+    "lon": 14.504623,
+    "address": "Kongresni trg 3",
+    "capacity": 20
+   },
+   {
+    "station_id": "4",
+    "name": [
+     {
+      "text": "CANKARJEVA UL.-NAMA",
+      "language": "sl"
+     },
+     {
+      "text": "CANKARJEVA UL.-NAMA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.052431,
+    "lon": 14.503257,
+    "address": "Cankarjeva cesta 1",
+    "capacity": 26
+   },
+   {
+    "station_id": "5",
+    "name": [
+     {
+      "text": "BREG",
+      "language": "sl"
+     },
+     {
+      "text": "BREG",
+      "language": "en"
+     }
+    ],
+    "lat": 46.046498,
+    "lon": 14.505148,
+    "address": "Breg 20",
+    "capacity": 20
+   },
+   {
+    "station_id": "6",
+    "name": [
+     {
+      "text": "GRUDNOVO NABREŽJE-KARLOVŠKA C.",
+      "language": "sl"
+     },
+     {
+      "text": "GRUDNOVO NABREŽJE-KARLOVŠKA C.",
+      "language": "en"
+     }
+    ],
+    "lat": 46.045748,
+    "lon": 14.506196,
+    "address": "Grudnovo nabrežje 3",
+    "capacity": 18
+   },
+   {
+    "station_id": "7",
+    "name": [
+     {
+      "text": "MIKLOŠIČEV PARK",
+      "language": "sl"
+     },
+     {
+      "text": "MIKLOŠIČEV PARK",
+      "language": "en"
+     }
+    ],
+    "lat": 46.054168,
+    "lon": 14.50706,
+    "address": "Miklošičeva cesta 20",
+    "capacity": 18
+   },
+   {
+    "station_id": "8",
+    "name": [
+     {
+      "text": "BAVARSKI DVOR",
+      "language": "sl"
+     },
+     {
+      "text": "BAVARSKI DVOR",
+      "language": "en"
+     }
+    ],
+    "lat": 46.05682,
+    "lon": 14.50551,
+    "address": "Slovenska cesta 55c",
+    "capacity": 20
+   },
+   {
+    "station_id": "9",
+    "name": [
+     {
+      "text": "TRG OF-KOLODVORSKA UL.",
+      "language": "sl"
+     },
+     {
+      "text": "TRG OF-KOLODVORSKA UL.",
+      "language": "en"
+     }
+    ],
+    "lat": 46.057421,
+    "lon": 14.510265,
+    "address": "Trg OF 12",
+    "capacity": 26
+   },
+   {
+    "station_id": "10",
+    "name": [
+     {
+      "text": "MASARYKOVA DDC",
+      "language": "sl"
+     },
+     {
+      "text": "MASARYKOVA DDC",
+      "language": "en"
+     }
+    ],
+    "lat": 46.05763,
+    "lon": 14.514264,
+    "address": "Masarykova cesta 14",
+    "capacity": 18
+   },
+   {
+    "station_id": "11",
+    "name": [
+     {
+      "text": "VILHARJEVA CESTA",
+      "language": "sl"
+     },
+     {
+      "text": "VILHARJEVA CESTA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.06005,
+    "lon": 14.51302,
+    "address": "Vilharjeva cesta 23",
+    "capacity": 20
+   },
+   {
+    "station_id": "12",
+    "name": [
+     {
+      "text": "PARK NAVJE-ŽELEZNA CESTA",
+      "language": "sl"
+     },
+     {
+      "text": "PARK NAVJE-ŽELEZNA CESTA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.06361,
+    "lon": 14.51315,
+    "address": "Železna cesta 18",
+    "capacity": 20
+   },
+   {
+    "station_id": "13",
+    "name": [
+     {
+      "text": "TRG MDB",
+      "language": "sl"
+     },
+     {
+      "text": "TRG MDB",
+      "language": "en"
+     }
+    ],
+    "lat": 46.047565,
+    "lon": 14.495687,
+    "address": "Trg MDB 9",
+    "capacity": 20
+   },
+   {
+    "station_id": "14",
+    "name": [
+     {
+      "text": "PARKIRIŠČE NUK 2-FF",
+      "language": "sl"
+     },
+     {
+      "text": "PARKIRIŠČE NUK 2-FF",
+      "language": "en"
+     }
+    ],
+    "lat": 46.046377,
+    "lon": 14.501256,
+    "address": "Zoisova cesta 2",
+    "capacity": 20
+   },
+   {
+    "station_id": "15",
+    "name": [
+     {
+      "text": "AMBROŽEV TRG",
+      "language": "sl"
+     },
+     {
+      "text": "AMBROŽEV TRG",
+      "language": "en"
+     }
+    ],
+    "lat": 46.049877,
+    "lon": 14.516308,
+    "address": "Poljanska cesta 20c",
+    "capacity": 18
+   },
+   {
+    "station_id": "16",
+    "name": [
+     {
+      "text": "GH ŠENTPETER-NJEGOŠEVA C.",
+      "language": "sl"
+     },
+     {
+      "text": "GH ŠENTPETER-NJEGOŠEVA C.",
+      "language": "en"
+     }
+    ],
+    "lat": 46.05257,
+    "lon": 14.51928,
+    "address": "Zaloška cesta 1",
+    "capacity": 24
+   },
+   {
+    "station_id": "17",
+    "name": [
+     {
+      "text": "ILIRSKA ULICA",
+      "language": "sl"
+     },
+     {
+      "text": "ILIRSKA ULICA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.053144,
+    "lon": 14.513479,
+    "address": "Ilirska ulica 1",
+    "capacity": 18
+   },
+   {
+    "station_id": "18",
+    "name": [
+     {
+      "text": "TRŽAŠKA C.-ILIRIJA",
+      "language": "sl"
+     },
+     {
+      "text": "TRŽAŠKA C.-ILIRIJA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.044629,
+    "lon": 14.486699,
+    "address": "Tržaška cesta 37",
+    "capacity": 20
+   },
+   {
+    "station_id": "19",
+    "name": [
+     {
+      "text": "TIVOLI",
+      "language": "sl"
+     },
+     {
+      "text": "TIVOLI",
+      "language": "en"
+     }
+    ],
+    "lat": 46.05952,
+    "lon": 14.4982,
+    "address": "Celovška cesta 26",
+    "capacity": 20
+   },
+   {
+    "station_id": "20",
+    "name": [
+     {
+      "text": "STARA CERKEV",
+      "language": "sl"
+     },
+     {
+      "text": "STARA CERKEV",
+      "language": "en"
+     }
+    ],
+    "lat": 46.06342,
+    "lon": 14.494588,
+    "address": "Celovška cesta 69",
+    "capacity": 14
+   },
+   {
+    "station_id": "21",
+    "name": [
+     {
+      "text": "KINO ŠIŠKA",
+      "language": "sl"
+     },
+     {
+      "text": "KINO ŠIŠKA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.06928,
+    "lon": 14.48971,
+    "address": "Celovška cesta 111c",
+    "capacity": 26
+   },
+   {
+    "station_id": "22",
+    "name": [
+     {
+      "text": "ŠPICA",
+      "language": "sl"
+     },
+     {
+      "text": "ŠPICA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.040213,
+    "lon": 14.512044,
+    "address": "Prule 8",
+    "capacity": 18
+   },
+   {
+    "station_id": "23",
+    "name": [
+     {
+      "text": "BARJANSKA C.-CENTER STAREJŠIH TRNOVO",
+      "language": "sl"
+     },
+     {
+      "text": "BARJANSKA C.-CENTER STAREJŠIH TRNOVO",
+      "language": "en"
+     }
+    ],
+    "lat": 46.04081,
+    "lon": 14.49951,
+    "address": "Devinska ulica 1a",
+    "capacity": 20
+   },
+   {
+    "station_id": "24",
+    "name": [
+     {
+      "text": "ZALOŠKA C.-GRABLOVIČEVA C.",
+      "language": "sl"
+     },
+     {
+      "text": "ZALOŠKA C.-GRABLOVIČEVA C.",
+      "language": "en"
+     }
+    ],
+    "lat": 46.05441,
+    "lon": 14.52978,
+    "address": "Zaloška cesta 16",
+    "capacity": 16
+   },
+   {
+    "station_id": "25",
+    "name": [
+     {
+      "text": "TRŽNICA MOSTE",
+      "language": "sl"
+     },
+     {
+      "text": "TRŽNICA MOSTE",
+      "language": "en"
+     }
+    ],
+    "lat": 46.055801,
+    "lon": 14.534156,
+    "address": "Zaloška cesta 54",
+    "capacity": 21
+   },
+   {
+    "station_id": "26",
+    "name": [
+     {
+      "text": "ROŽNA DOLINA-ŠKRABČEVA UL.",
+      "language": "sl"
+     },
+     {
+      "text": "ROŽNA DOLINA-ŠKRABČEVA UL.",
+      "language": "en"
+     }
+    ],
+    "lat": 46.051439,
+    "lon": 14.49273,
+    "address": "Škrabčeva ulica 2",
+    "capacity": 18
+   },
+   {
+    "station_id": "27",
+    "name": [
+     {
+      "text": "DUNAJSKA C.-PS PETROL",
+      "language": "sl"
+     },
+     {
+      "text": "DUNAJSKA C.-PS PETROL",
+      "language": "en"
+     }
+    ],
+    "lat": 46.065136,
+    "lon": 14.509112,
+    "address": "Dunajska cesta 50",
+    "capacity": 20
+   },
+   {
+    "station_id": "28",
+    "name": [
+     {
+      "text": "PLEČNIKOV STADION",
+      "language": "sl"
+     },
+     {
+      "text": "PLEČNIKOV STADION",
+      "language": "en"
+     }
+    ],
+    "lat": 46.06942,
+    "lon": 14.51052,
+    "address": "Dunajska cesta 70",
+    "capacity": 18
+   },
+   {
+    "station_id": "29",
+    "name": [
+     {
+      "text": "DUNAJSKA C.-PS MERCATOR",
+      "language": "sl"
+     },
+     {
+      "text": "DUNAJSKA C.-PS MERCATOR",
+      "language": "en"
+     }
+    ],
+    "lat": 46.074193,
+    "lon": 14.511134,
+    "address": "Dunajska cesta 105",
+    "capacity": 18
+   },
+   {
+    "station_id": "30",
+    "name": [
+     {
+      "text": "LIDL - VOJKOVA CESTA",
+      "language": "sl"
+     },
+     {
+      "text": "LIDL - VOJKOVA CESTA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.07589,
+    "lon": 14.52011,
+    "address": "",
+    "capacity": 20
+   },
+   {
+    "station_id": "31",
+    "name": [
+     {
+      "text": "ŠPORTNI CENTER STOŽICE",
+      "language": "sl"
+     },
+     {
+      "text": "ŠPORTNI CENTER STOŽICE",
+      "language": "en"
+     }
+    ],
+    "lat": 46.08259,
+    "lon": 14.52016,
+    "address": "Vojkova cesta 91",
+    "capacity": 26
+   },
+   {
+    "station_id": "32",
+    "name": [
+     {
+      "text": "KOPRSKA ULICA",
+      "language": "sl"
+     },
+     {
+      "text": "KOPRSKA ULICA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.033408,
+    "lon": 14.482468,
+    "address": "Koprska ulica 98",
+    "capacity": 8
+   },
+   {
+    "station_id": "33",
+    "name": [
+     {
+      "text": "MERCATOR CENTER ŠIŠKA",
+      "language": "sl"
+     },
+     {
+      "text": "MERCATOR CENTER ŠIŠKA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.087079,
+    "lon": 14.475439,
+    "address": "Cesta Ljubljanske brigade 33",
+    "capacity": 22
+   },
+   {
+    "station_id": "34",
+    "name": [
+     {
+      "text": "CITYPARK",
+      "language": "sl"
+     },
+     {
+      "text": "CITYPARK",
+      "language": "en"
+     }
+    ],
+    "lat": 46.068805,
+    "lon": 14.546257,
+    "address": "Citypark - Šmartinska 152 g",
+    "capacity": 20
+   },
+   {
+    "station_id": "35",
+    "name": [
+     {
+      "text": "BTC CITY/DVORANA A",
+      "language": "sl"
+     },
+     {
+      "text": "BTC CITY/DVORANA A",
+      "language": "en"
+     }
+    ],
+    "lat": 46.065297,
+    "lon": 14.543996,
+    "address": "BTC City/Dvorana A",
+    "capacity": 20
+   },
+   {
+    "station_id": "36",
+    "name": [
+     {
+      "text": "BTC CITY ATLANTIS",
+      "language": "sl"
+     },
+     {
+      "text": "BTC CITY ATLANTIS",
+      "language": "en"
+     }
+    ],
+    "lat": 46.063081,
+    "lon": 14.547851,
+    "address": "BTC City Atlantis",
+    "capacity": 20
+   },
+   {
+    "station_id": "37",
+    "name": [
+     {
+      "text": "TRNOVO",
+      "language": "sl"
+     },
+     {
+      "text": "TRNOVO",
+      "language": "en"
+     }
+    ],
+    "lat": 46.03784,
+    "lon": 14.50001,
+    "address": "TRNOVO",
+    "capacity": 20
+   },
+   {
+    "station_id": "38",
+    "name": [
+     {
+      "text": "P+R BARJE",
+      "language": "sl"
+     },
+     {
+      "text": "P+R BARJE",
+      "language": "en"
+     }
+    ],
+    "lat": 46.02749,
+    "lon": 14.49958,
+    "address": "P+R BARJE",
+    "capacity": 20
+   },
+   {
+    "station_id": "39",
+    "name": [
+     {
+      "text": "P + R DOLGI MOST",
+      "language": "sl"
+     },
+     {
+      "text": "P + R DOLGI MOST",
+      "language": "en"
+     }
+    ],
+    "lat": 46.037003,
+    "lon": 14.465229,
+    "address": "P+R Dolgi most",
+    "capacity": 20
+   },
+   {
+    "station_id": "40",
+    "name": [
+     {
+      "text": "BONIFACIJA",
+      "language": "sl"
+     },
+     {
+      "text": "BONIFACIJA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.039641,
+    "lon": 14.472664,
+    "address": "Tržaška 123",
+    "capacity": 21
+   },
+   {
+    "station_id": "41",
+    "name": [
+     {
+      "text": "ANTONOV TRG",
+      "language": "sl"
+     },
+     {
+      "text": "ANTONOV TRG",
+      "language": "en"
+     }
+    ],
+    "lat": 46.041753,
+    "lon": 14.477016,
+    "address": "Tržaška 91",
+    "capacity": 20
+   },
+   {
+    "station_id": "42",
+    "name": [
+     {
+      "text": "BRATOVŠEVA PLOŠČAD",
+      "language": "sl"
+     },
+     {
+      "text": "BRATOVŠEVA PLOŠČAD",
+      "language": "en"
+     }
+    ],
+    "lat": 46.08929,
+    "lon": 14.513751,
+    "address": "Dunajska 211",
+    "capacity": 20
+   },
+   {
+    "station_id": "43",
+    "name": [
+     {
+      "text": "BS4-STOŽICE",
+      "language": "sl"
+     },
+     {
+      "text": "BS4-STOŽICE",
+      "language": "en"
+     }
+    ],
+    "lat": 46.086761,
+    "lon": 14.514151,
+    "address": "Dunajska 186",
+    "capacity": 20
+   },
+   {
+    "station_id": "44",
+    "name": [
+     {
+      "text": "SAVSKO NASELJE 2-LINHARTOVA CESTA",
+      "language": "sl"
+     },
+     {
+      "text": "SAVSKO NASELJE 2-LINHARTOVA CESTA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.064546,
+    "lon": 14.518013,
+    "address": "Topniška 54",
+    "capacity": 20
+   },
+   {
+    "station_id": "45",
+    "name": [
+     {
+      "text": "SAVSKO NASELJE 1-ŠMARTINSKA CESTA",
+      "language": "sl"
+     },
+     {
+      "text": "SAVSKO NASELJE 1-ŠMARTINSKA CESTA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.062475,
+    "lon": 14.524321,
+    "address": "Savska cesta 1",
+    "capacity": 20
+   },
+   {
+    "station_id": "46",
+    "name": [
+     {
+      "text": "SITULA",
+      "language": "sl"
+     },
+     {
+      "text": "SITULA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.059433,
+    "lon": 14.52051,
+    "address": "Vilharjeva cesta 44",
+    "capacity": 20
+   },
+   {
+    "station_id": "47",
+    "name": [
+     {
+      "text": "ŠTEPANJSKO NASELJE 1-JAKČEVA ULICA",
+      "language": "sl"
+     },
+     {
+      "text": "ŠTEPANJSKO NASELJE 1-JAKČEVA ULICA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.053047,
+    "lon": 14.545125,
+    "address": "Jakčeva ulica 37",
+    "capacity": 19
+   },
+   {
+    "station_id": "48",
+    "name": [
+     {
+      "text": "HOFER-KAJUHOVA",
+      "language": "sl"
+     },
+     {
+      "text": "HOFER-KAJUHOVA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.056405,
+    "lon": 14.540901,
+    "address": "Kajuhova ulica 42",
+    "capacity": 20
+   },
+   {
+    "station_id": "49",
+    "name": [
+     {
+      "text": "BRODARJEV TRG",
+      "language": "sl"
+     },
+     {
+      "text": "BRODARJEV TRG",
+      "language": "en"
+     }
+    ],
+    "lat": 46.054398,
+    "lon": 14.553319,
+    "address": "Nove Fuzine 8",
+    "capacity": 20
+   },
+   {
+    "station_id": "50",
+    "name": [
+     {
+      "text": "PREGLOV TRG",
+      "language": "sl"
+     },
+     {
+      "text": "PREGLOV TRG",
+      "language": "en"
+     }
+    ],
+    "lat": 46.054554,
+    "lon": 14.55908,
+    "address": "Nove Fuzine 33",
+    "capacity": 20
+   },
+   {
+    "station_id": "51",
+    "name": [
+     {
+      "text": "LIDL-LITIJSKA CESTA",
+      "language": "sl"
+     },
+     {
+      "text": "LIDL-LITIJSKA CESTA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.047689,
+    "lon": 14.547416,
+    "address": "Litijska cesta 53",
+    "capacity": 20
+   },
+   {
+    "station_id": "52",
+    "name": [
+     {
+      "text": "ŽIVALSKI VRT",
+      "language": "sl"
+     },
+     {
+      "text": "ŽIVALSKI VRT",
+      "language": "en"
+     }
+    ],
+    "lat": 46.052454,
+    "lon": 14.472149,
+    "address": "Večna pot 70",
+    "capacity": 20
+   },
+   {
+    "station_id": "53",
+    "name": [
+     {
+      "text": "CESTA NA ROŽNIK",
+      "language": "sl"
+     },
+     {
+      "text": "CESTA NA ROŽNIK",
+      "language": "en"
+     }
+    ],
+    "lat": 46.053241,
+    "lon": 14.486206,
+    "address": "Cesta na Rožnik 1",
+    "capacity": 20
+   },
+   {
+    "station_id": "54",
+    "name": [
+     {
+      "text": "ŠMARTINSKI PARK",
+      "language": "sl"
+     },
+     {
+      "text": "ŠMARTINSKI PARK",
+      "language": "en"
+     }
+    ],
+    "lat": 46.065206,
+    "lon": 14.529911,
+    "address": "Smartinska cesta 58",
+    "capacity": 20
+   },
+   {
+    "station_id": "55",
+    "name": [
+     {
+      "text": "POLJANSKA-POTOČNIKOVA",
+      "language": "sl"
+     },
+     {
+      "text": "POLJANSKA-POTOČNIKOVA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.048982,
+    "lon": 14.522709,
+    "address": "Poljanska cesta 50",
+    "capacity": 20
+   },
+   {
+    "station_id": "56",
+    "name": [
+     {
+      "text": "SREDNJA FRIZERSKA ŠOLA",
+      "language": "sl"
+     },
+     {
+      "text": "SREDNJA FRIZERSKA ŠOLA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.080522,
+    "lon": 14.491439,
+    "address": "Litostrojska cesta 53",
+    "capacity": 20
+   },
+   {
+    "station_id": "57",
+    "name": [
+     {
+      "text": "POVŠETOVA-GRABLOVIČEVA",
+      "language": "sl"
+     },
+     {
+      "text": "POVŠETOVA-GRABLOVIČEVA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.051863,
+    "lon": 14.530349,
+    "address": "Grabloviceva ulica 60",
+    "capacity": 19
+   },
+   {
+    "station_id": "58",
+    "name": [
+     {
+      "text": "TRŽNICA KOSEZE",
+      "language": "sl"
+     },
+     {
+      "text": "TRŽNICA KOSEZE",
+      "language": "en"
+     }
+    ],
+    "lat": 46.074315,
+    "lon": 14.475483,
+    "address": "Vodnikova cesta 187",
+    "capacity": 18
+   },
+   {
+    "station_id": "59",
+    "name": [
+     {
+      "text": "LIDL BEŽIGRAD",
+      "language": "sl"
+     },
+     {
+      "text": "LIDL BEŽIGRAD",
+      "language": "en"
+     }
+    ],
+    "lat": 46.063797,
+    "lon": 14.506854,
+    "address": "Bežigrad 11",
+    "capacity": 20
+   },
+   {
+    "station_id": "60",
+    "name": [
+     {
+      "text": "MERCATOR MARKET - CELOVŠKA C. 163",
+      "language": "sl"
+     },
+     {
+      "text": "MERCATOR MARKET - CELOVŠKA C. 163",
+      "language": "en"
+     }
+    ],
+    "lat": 46.073264,
+    "lon": 14.485942,
+    "address": "Celovška 163",
+    "capacity": 20
+   },
+   {
+    "station_id": "61",
+    "name": [
+     {
+      "text": "RAKOVNIK",
+      "language": "sl"
+     },
+     {
+      "text": "RAKOVNIK",
+      "language": "en"
+     }
+    ],
+    "lat": 46.036284,
+    "lon": 14.522948,
+    "address": "Rakovnik",
+    "capacity": 20
+   },
+   {
+    "station_id": "62",
+    "name": [
+     {
+      "text": "ALEJA - CELOVŠKA CESTA",
+      "language": "sl"
+     },
+     {
+      "text": "ALEJA - CELOVŠKA CESTA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.077302,
+    "lon": 14.482581,
+    "address": "Aleja - Celovška Cesta",
+    "capacity": 20
+   },
+   {
+    "station_id": "63",
+    "name": [
+     {
+      "text": "IKEA",
+      "language": "sl"
+     },
+     {
+      "text": "IKEA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.06488,
+    "lon": 14.53833,
+    "address": "Švedska ulica 6",
+    "capacity": 20
+   },
+   {
+    "station_id": "64",
+    "name": [
+     {
+      "text": "KOPALIŠČE KOLEZIJA",
+      "language": "sl"
+     },
+     {
+      "text": "KOPALIŠČE KOLEZIJA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.042867,
+    "lon": 14.495239,
+    "address": "Gunduličeva ulica",
+    "capacity": 20
+   },
+   {
+    "station_id": "65",
+    "name": [
+     {
+      "text": "VIŠKO POLJE",
+      "language": "sl"
+     },
+     {
+      "text": "VIŠKO POLJE",
+      "language": "en"
+     }
+    ],
+    "lat": 46.046189,
+    "lon": 14.469037,
+    "address": "Cesta na Brdo",
+    "capacity": 20
+   },
+   {
+    "station_id": "66",
+    "name": [
+     {
+      "text": "KOSEŠKI BAJER",
+      "language": "sl"
+     },
+     {
+      "text": "KOSEŠKI BAJER",
+      "language": "en"
+     }
+    ],
+    "lat": 46.068443,
+    "lon": 14.470913,
+    "address": "Koseška cesta",
+    "capacity": 20
+   },
+   {
+    "station_id": "67",
+    "name": [
+     {
+      "text": "DRAVLJE",
+      "language": "sl"
+     },
+     {
+      "text": "DRAVLJE",
+      "language": "en"
+     }
+    ],
+    "lat": 46.07984,
+    "lon": 14.479952,
+    "address": "Celovška cesta",
+    "capacity": 20
+   },
+   {
+    "station_id": "68",
+    "name": [
+     {
+      "text": "ČRNUČE",
+      "language": "sl"
+     },
+     {
+      "text": "ČRNUČE",
+      "language": "en"
+     }
+    ],
+    "lat": 46.102446,
+    "lon": 14.530213,
+    "address": "Dunajska cesta",
+    "capacity": 20
+   },
+   {
+    "station_id": "69",
+    "name": [
+     {
+      "text": "STUDENEC",
+      "language": "sl"
+     },
+     {
+      "text": "STUDENEC",
+      "language": "en"
+     }
+    ],
+    "lat": 46.054615,
+    "lon": 14.576031,
+    "address": "Zaloška cesta",
+    "capacity": 20
+   },
+   {
+    "station_id": "70",
+    "name": [
+     {
+      "text": "POLJE",
+      "language": "sl"
+     },
+     {
+      "text": "POLJE",
+      "language": "en"
+     }
+    ],
+    "lat": 46.05722,
+    "lon": 14.583537,
+    "address": "Zadobrovška cesta",
+    "capacity": 20
+   },
+   {
+    "station_id": "71",
+    "name": [
+     {
+      "text": "ZALOG",
+      "language": "sl"
+     },
+     {
+      "text": "ZALOG",
+      "language": "en"
+     }
+    ],
+    "lat": 46.06043,
+    "lon": 14.613797,
+    "address": "Zaloška cesta",
+    "capacity": 20
+   },
+   {
+    "station_id": "72",
+    "name": [
+     {
+      "text": "LIDL - RUDNIK",
+      "language": "sl"
+     },
+     {
+      "text": "LIDL - RUDNIK",
+      "language": "en"
+     }
+    ],
+    "lat": 46.020012,
+    "lon": 14.532479,
+    "address": "Betettova cesta",
+    "capacity": 20
+   },
+   {
+    "station_id": "73",
+    "name": [
+     {
+      "text": "PRUŠNIKOVA",
+      "language": "sl"
+     },
+     {
+      "text": "PRUŠNIKOVA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.090608,
+    "lon": 14.471637,
+    "address": "Prušnikova ulica",
+    "capacity": 20
+   },
+   {
+    "station_id": "74",
+    "name": [
+     {
+      "text": "POVŠETOVA - KAJUHOVA",
+      "language": "sl"
+     },
+     {
+      "text": "POVŠETOVA - KAJUHOVA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.051512,
+    "lon": 14.539272,
+    "address": "Povšetova - Kajuhova",
+    "capacity": 20
+   },
+   {
+    "station_id": "75",
+    "name": [
+     {
+      "text": "SOSESKA NOVO BRDO",
+      "language": "sl"
+     },
+     {
+      "text": "SOSESKA NOVO BRDO",
+      "language": "en"
+     }
+    ],
+    "lat": 46.045617,
+    "lon": 14.462281,
+    "address": "Pot rdečega križa",
+    "capacity": 20
+   },
+   {
+    "station_id": "76",
+    "name": [
+     {
+      "text": "TEHNOLOŠKI PARK",
+      "language": "sl"
+     },
+     {
+      "text": "TEHNOLOŠKI PARK",
+      "language": "en"
+     }
+    ],
+    "lat": 46.04843,
+    "lon": 14.461086,
+    "address": "Tehnološki park",
+    "capacity": 20
+   },
+   {
+    "station_id": "77",
+    "name": [
+     {
+      "text": "VOJKOVA - GASILSKA BRIGADA",
+      "language": "sl"
+     },
+     {
+      "text": "VOJKOVA - GASILSKA BRIGADA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.068727,
+    "lon": 14.516858,
+    "address": "Vojkova cesta",
+    "capacity": 20
+   },
+   {
+    "station_id": "78",
+    "name": [
+     {
+      "text": "GERBIČEVA - ŠPORTNI PARK SVOBODA",
+      "language": "sl"
+     },
+     {
+      "text": "GERBIČEVA - ŠPORTNI PARK SVOBODA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.039384,
+    "lon": 14.485458,
+    "address": "Gerbičeva ulica 61",
+    "capacity": 20
+   },
+   {
+    "station_id": "79",
+    "name": [
+     {
+      "text": "DOLENJSKA C. - STRELIŠČE",
+      "language": "sl"
+     },
+     {
+      "text": "DOLENJSKA C. - STRELIŠČE",
+      "language": "en"
+     }
+    ],
+    "lat": 46.038866,
+    "lon": 14.517605,
+    "address": "Dolenjska c. 11",
+    "capacity": 20
+   },
+   {
+    "station_id": "80",
+    "name": [
+     {
+      "text": "ROŠKA - STRELIŠKA",
+      "language": "sl"
+     },
+     {
+      "text": "ROŠKA - STRELIŠKA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.045,
+    "lon": 14.51846,
+    "address": "Roška cesta",
+    "capacity": 20
+   },
+   {
+    "station_id": "81",
+    "name": [
+     {
+      "text": "LEK - VEROVŠKOVA",
+      "language": "sl"
+     },
+     {
+      "text": "LEK - VEROVŠKOVA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.076856,
+    "lon": 14.500222,
+    "address": "Verovškova 57",
+    "capacity": 20
+   },
+   {
+    "station_id": "82",
+    "name": [
+     {
+      "text": "VOKA - SLOVENČEVA",
+      "language": "sl"
+     },
+     {
+      "text": "VOKA - SLOVENČEVA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.075207,
+    "lon": 14.504734,
+    "address": "Vodovodna cesta 90",
+    "capacity": 20
+   },
+   {
+    "station_id": "83",
+    "name": [
+     {
+      "text": "SUPERNOVA LJUBLJANA - RUDNIK",
+      "language": "sl"
+     },
+     {
+      "text": "SUPERNOVA LJUBLJANA - RUDNIK",
+      "language": "en"
+     }
+    ],
+    "lat": 46.021586,
+    "lon": 14.536745,
+    "address": "Jurčkova 223",
+    "capacity": 20
+   },
+   {
+    "station_id": "84",
+    "name": [
+     {
+      "text": "HOFER - POLJE",
+      "language": "sl"
+     },
+     {
+      "text": "HOFER - POLJE",
+      "language": "en"
+     }
+    ],
+    "lat": 46.053718,
+    "lon": 14.589284,
+    "address": "Polje 51",
+    "capacity": 20
+   },
+   {
+    "station_id": "85",
+    "name": [
+     {
+      "text": "MCDONALD'S - ŠMARTINSKA",
+      "language": "sl"
+     },
+     {
+      "text": "MCDONALD'S - ŠMARTINSKA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.069408,
+    "lon": 14.541228,
+    "address": "Šmartinska cesta 147",
+    "capacity": 20
+   },
+   {
+    "station_id": "86",
+    "name": [
+     {
+      "text": "KOPALIŠČE ILIRIJA",
+      "language": "sl"
+     },
+     {
+      "text": "KOPALIŠČE ILIRIJA",
+      "language": "en"
+     }
+    ],
+    "lat": 46.056404,
+    "lon": 14.500927,
+    "address": "Bleiweisova cesta 25",
+    "capacity": 20
+   },
+   {
+    "station_id": "87",
+    "name": [
+     {
+      "text": "PRVA HIŠA - JURČKOVO NASELJE",
+      "language": "sl"
+     },
+     {
+      "text": "PRVA HIŠA - JURČKOVO NASELJE",
+      "language": "en"
+     }
+    ],
+    "lat": 46.027403,
+    "lon": 14.525238,
+    "address": "Ulica Alojza Kajina 1",
+    "capacity": 20
+   },
+   {
+    "station_id": "88",
+    "name": [
+     {
+      "text": "",
+      "language": "sl"
+     },
+     {
+      "text": "",
+      "language": "en"
+     }
+    ],
+    "lat": 46.038591,
+    "lon": 14.475729,
+    "address": "",
+    "capacity": 20
+   }
+  ]
+ }
+}

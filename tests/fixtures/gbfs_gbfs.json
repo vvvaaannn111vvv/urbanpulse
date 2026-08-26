@@ -1,0 +1,11 @@
+{
+ "last_updated": "2026-08-26T16:10:24.238870354Z",
+ "ttl": 3600,
+ "version": "3.0",
+ "data": {
+  "feeds": [
+   {"name": "station_information", "url": "https://api.cyclocity.fr/contracts/ljubljana/gbfs/v3/station_information.json"},
+   {"name": "station_status", "url": "https://api.cyclocity.fr/contracts/ljubljana/gbfs/v3/station_status.json"}
+  ]
+ }
+}
