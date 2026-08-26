@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import numpy as np
 import pandas as pd
+from numpy.typing import ArrayLike
 
 from services.common.features import BUCKETS_PER_WEEK, HORIZON_BUCKETS
 
@@ -18,11 +19,11 @@ def seasonal_naive(series: pd.Series, horizon_min: int) -> pd.Series:
     return series.shift(BUCKETS_PER_WEEK - steps)
 
 
-def mae(y_true: np.ndarray, y_pred: np.ndarray) -> float:
+def mae(y_true: ArrayLike, y_pred: ArrayLike) -> float:
     return float(np.mean(np.abs(np.asarray(y_true) - np.asarray(y_pred))))
 
 
-def rmse(y_true: np.ndarray, y_pred: np.ndarray) -> float:
+def rmse(y_true: ArrayLike, y_pred: ArrayLike) -> float:
     diff = np.asarray(y_true) - np.asarray(y_pred)
     return float(np.sqrt(np.mean(diff**2)))
 
