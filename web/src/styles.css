@@ -1,0 +1,273 @@
+:root {
+  --bg: #0e1116;
+  --panel: #161b22;
+  --line: #262d38;
+  --text: #e6edf3;
+  --muted: #8b97a6;
+  --accent: #2e9e9b;
+  --warn: #f2c14e;
+  --bad: #f25f5c;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font:
+    14px/1.45 ui-sans-serif,
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--line);
+  background: var(--panel);
+}
+
+.topbar h1 {
+  font-size: 17px;
+  margin: 0;
+  letter-spacing: 0.02em;
+}
+
+.topbar h1 span {
+  color: var(--accent);
+}
+
+.spacer {
+  flex: 1;
+}
+
+.muted {
+  color: var(--muted);
+  margin: 0;
+  font-size: 12px;
+}
+
+.metric {
+  font-variant-numeric: tabular-nums;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.badge {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.badge.live {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.badge.connecting {
+  color: var(--warn);
+  border-color: var(--warn);
+}
+
+.badge.offline {
+  color: var(--bad);
+  border-color: var(--bad);
+}
+
+.content {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  display: flex;
+}
+
+.map {
+  flex: 1;
+  min-width: 0;
+}
+
+.panel {
+  width: 380px;
+  max-width: 46vw;
+  overflow-y: auto;
+  padding: 14px 16px 24px;
+  background: var(--panel);
+  border-left: 1px solid var(--line);
+}
+
+.panel-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.panel-head h2 {
+  font-size: 15px;
+  margin: 0 0 2px;
+}
+
+.panel-head button {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.stat-row {
+  display: flex;
+  gap: 10px;
+  margin: 14px 0;
+}
+
+.stat {
+  flex: 1;
+  background: #11161d;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-value {
+  font-size: 20px;
+  font-variant-numeric: tabular-nums;
+}
+
+.stat-label {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.range-row {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.chip {
+  background: #11161d;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.chip.active {
+  color: var(--text);
+  border-color: var(--accent);
+}
+
+.chart {
+  width: 100%;
+  height: 220px;
+}
+
+.chart .grid line {
+  stroke: var(--line);
+}
+
+.chart .grid path {
+  display: none;
+}
+
+.chart text {
+  fill: var(--muted);
+  font-size: 10px;
+}
+
+.chart .domain,
+.chart .tick line {
+  stroke: var(--line);
+}
+
+.panel h3 {
+  font-size: 13px;
+  margin: 16px 0 6px;
+  font-weight: 600;
+}
+
+.forecast {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+
+.forecast th {
+  text-align: left;
+  font-size: 11px;
+  color: var(--muted);
+  font-weight: 500;
+  border-bottom: 1px solid var(--line);
+  padding: 4px 0;
+}
+
+.forecast td {
+  padding: 5px 0;
+  border-bottom: 1px solid #1b212a;
+}
+
+.replay {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 16px;
+  border-top: 1px solid var(--line);
+  background: var(--panel);
+}
+
+.replay input[type="range"] {
+  flex: 1;
+  accent-color: var(--accent);
+}
+
+.error {
+  color: var(--bad);
+  font-size: 12px;
+}
+
+.error.banner {
+  margin: 0;
+  padding: 6px 16px;
+  background: #2a1416;
+}
+
+.maplibregl-popup-content {
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--line);
+  font-size: 12px;
+  padding: 6px 9px;
+}
+
+.maplibregl-popup-tip {
+  display: none;
+}
